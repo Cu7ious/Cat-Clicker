@@ -1,0 +1,42 @@
+body {
+  width: 100%;
+  overflow: hidden;
+}
+
+#list,
+#stage {
+  float: left;
+  min-height: 100px;
+  display: block;
+}
+
+#list {
+  padding: 0;
+  width: 25%;
+}
+
+#list li {
+  cursor: pointer;
+  margin-left: 20px
+}
+
+#list li.active {
+  color: red;
+}
+
+#stage {
+  width: 73%;
+}
+
+#stage div {
+  display: none;
+}
+
+#stage img {
+  cursor: pointer;
+}
+
+#stage div:first-child {
+  display: block;
+}
+
